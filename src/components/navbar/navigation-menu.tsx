@@ -25,6 +25,14 @@ const menuObject: NavigationMenuType[] = [
     path: "/product",
     name: "Product",
   },
+  {
+    path: "/form",
+    name: "Form",
+  },
+  {
+    path: "/view",
+    name: "View",
+  },
 ];
 export default function NavigationMenu() {
   let pathName = usePathname();

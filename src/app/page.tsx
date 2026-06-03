@@ -1,9 +1,12 @@
 import ButtonStateComponent from "@/components/button-state-component";
+import Button from "@/components/button/button";
 import ButtonComponent from "@/components/buttonComponent";
 
 export default function Home() {
   return (
     <div className="grid place-content-center h-screen ">
+      {/* button */}
+      <Button/>
       {/* counter buuton */}
       <ButtonStateComponent />
       {/* button 1 */}

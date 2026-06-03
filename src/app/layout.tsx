@@ -33,7 +33,7 @@ export default function RootLayout({
         {/* header */}
         <header>
           {/* navigation menu */}
-          <NavigationMenu/>
+          <NavigationMenu />
           <h1 className="text-4xl bg-amber-300">This is Header</h1>
         </header>
         {children}
